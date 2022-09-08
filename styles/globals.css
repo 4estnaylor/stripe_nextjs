@@ -1,4 +1,7 @@
 html,
+* {
+  background-color: 'hsla(190 60% 98% / 1)';
+}
 body {
   padding: 0;
   margin: 0;

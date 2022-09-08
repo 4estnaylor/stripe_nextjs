@@ -9,16 +9,32 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.1.6",
+    "@prisma/client": "^4.2.1",
+    "@stripe/react-stripe-js": "^1.10.0",
+    "@stripe/stripe-js": "^1.35.0",
+    "@types/next-auth": "^3.15.0",
+    "babel-plugin-superjson-next": "^0.4.3",
+    "babel-preset-next": "^1.4.0",
+    "install": "^0.13.0",
+    "micro": "^9.4.1",
+    "next": "^12.2.5",
+    "next-auth": "^4.10.2",
+    "nodemailer": "^6.7.7",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "stripe": "^9.16.0",
+    "styled-components": "^5.3.5",
+    "superjson": "^1.9.1"
   },
   "devDependencies": {
     "@types/node": "17.0.38",
     "@types/react": "18.0.10",
     "@types/react-dom": "18.0.5",
+    "@types/styled-components": "^5.1.25",
+    "babel-plugin-styled-components": "^2.0.7",
     "eslint": "8.16.0",
     "eslint-config-next": "12.1.6",
+    "prisma": "^4.2.1",
     "typescript": "4.7.2"
   }
 }
